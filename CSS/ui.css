@@ -1,0 +1,558 @@
+header{
+    position: relative;
+    height: 55px;
+    background: #2B3043;
+}
+.active{
+    background: #363C4C;
+}
+.second{
+    display: none;
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+.box>.top{
+    margin-left: 100px;
+    box-sizing: border-box;
+    width: 800px;
+    line-height: 50px;
+}
+.box>.top>li>a{
+    color: #FAFAFA;
+}
+.box>.top>li>a:hover{
+    color: #009A66;
+}
+.head{
+    width: 1140px;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+
+    align-items: center;
+}
+.head>ul{
+    width: 430px;
+    height: 55px;
+    font-size: 14px;
+    color: white;
+    overflow: hidden;
+}
+.head>ul>li{
+    padding: 0 10px;
+    float: left;
+    height: 55px;
+}
+.head>ul>li>a{
+    line-height: 55px;
+    color: #FAFAFA;
+}
+.head>ul>li>a:hover{
+    color: #009A66;
+}
+.head>ul>li:last-child{
+    position: relative;
+}
+.head>ul>li:last-child>div{
+    width: 9px;
+    height: 11px;
+    background: url("../images/login-tb.png") no-repeat 0 -120px ;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+.head>input{
+    margin-left: 250px;
+    width: 195px;
+    height: 30px;
+    background: #2B3043 url("../images/top-search.png") no-repeat 175px center;
+    text-indent: 1em;
+    border: 1px #555555 solid;
+}
+.phone{
+    position: relative;
+    margin-left: 20px;
+    width: 12px;
+    height: 16px;
+    background: url("../images/header-app.png") no-repeat 0 0;
+}
+.phone:hover{
+    cursor: pointer;
+}
+.phone>div{
+    width: 184px;
+    height: 150px;
+    position: absolute;
+    top: 36px;
+    left: -65px;
+    display: none;
+}
+
+.head>p{
+    margin-left: 10px;
+    color: white;
+}
+.head>p>a{
+    padding: 0 5px;
+}
+.head>p>a:first-child{
+    border-right: 1px #9b9b9b solid;
+}
+.banner{
+    width: 100%;
+    height: 380px;
+    background: url("../images/first-img.png") no-repeat ;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+}
+.banner>div{
+    width: 1140px;
+    margin: 0 auto;
+}
+.banner>div>div{
+    width: 630px;
+    height: 220px;
+    margin-left: 450px;
+    color: #009A66;
+-webkit-animation: rollIn 1s forwards;
+}
+.banner>div>div>h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+.banner>div>div>p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.banner>div>div>p:last-child{
+
+}
+.banner>div>div>p>span{
+    font-size: 14px;
+    padding: 10px 15px;
+    color: white;
+    background: #009A66;
+    margin-left: 10px;
+
+}
+.box{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+.class{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.class>div{
+    width: 470px;
+    height: 1px;
+    background: black;
+}
+.class>p{
+    color: black;
+    font-size: 35px;
+}
+.box>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box>ul>li{
+    width: 370px;
+}
+.box>ul>li>div:first-child{
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+}
+.box>ul>li>div>img{
+    width: 100%;
+}
+.meng{
+    box-sizing: border-box;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    color: white;
+    padding:0 40px;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 150px;
+    left: 0;
+    transition: all 1s;
+}
+.box>ul>li>div:hover .meng{
+    top:0;
+    background: rgba(0,0,0,0.5);
+}
+.meng>P:first-child{
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.meng>P:nth-child(2){
+    font-size: 14px;
+    line-height: 20px;
+}
+.meng>button{
+    display: block;
+    width: 60%;
+   height: 40px;
+    margin: 25px auto;
+    border: none;
+    border-radius: 20px;
+    background: #009A66;
+    color: #FAFAFA;
+}
+.class-list1{
+    background: url("../images/jieduan1.png") no-repeat left 15px;
+}
+.class-list3{
+    background: url("../images/jieduan1.png") no-repeat left 15px;
+}
+.class-list3>ul>li:nth-child(3){
+    margin-bottom: 0;
+}
+.col{
+    margin-top: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+}
+.class-list1>ul>li:nth-child(3){
+   margin-bottom: 0;
+}
+.class-list1>ul>li:nth-child(4),.class-list1>ul>li:nth-child(5),.class-list1>ul>li:nth-child(6),.class-list1>ul>li:nth-child(7){
+    margin-top: 12px;
+}
+.col>ul{
+    margin-left: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.kuang{
+    margin-bottom: 25px;
+}
+.kuang>span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding:0 10px;
+    border: 1px #8c8c8c solid;
+}
+.class-list2{
+    background: url("../images/jieduan2.png") no-repeat left 15px;
+}
+.class-list2>ul>li:first-child{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.class-list2>ul>li{
+    margin-top: 14px;
+}
+.bg3{
+    width: 20px;
+    height: 143px;
+    position: absolute;
+    top:15px;
+    left: 0;
+    background: url("../images/jieduan1.png") no-repeat 0 0;
+}
+.center{
+    width: 100%;
+    background: #FAFAFA;
+}
+.title{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title>div{
+    width: 380px;
+    height: 1px;
+    background: black;
+}
+.title>p{
+
+    color: black;
+    font-size: 35px;
+}
+.titel-txt{
+    text-align: center;
+    color: black;
+    width: 645px;
+    margin: 0 auto;
+}
+.color-circle{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 45px 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box>.color-circle>li{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 135px;
+    color: #FAFAFA;
+    font-size: 18px;
+}
+.box>.color-circle>li:hover{
+    -webkit-animation: rubberBand 1s forwards;
+}
+.xiangmu{
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    line-height: 70px;
+}
+.box>img{
+    width: 100%;
+    margin: 30px 0 80px;
+}
+.beijing{
+    width: 100%;
+    height: 435px;
+    background: url("../images/fifth-bg.png") no-repeat;
+    background-size: cover;
+    color: #FAFAFA;
+}
+.school{
+    margin-left: 100px;
+    padding-top: 75px;
+    box-sizing: border-box;
+    width: 800px;
+}
+
+.school:hover p{
+-webkit-animation: show 1s forwards;
+}
+.school:hover h2{
+    -webkit-animation: show 1s forwards;
+}
+.school>h2{
+    text-indent: 100px;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: normal;
+}
+.school>p{
+    padding:0 0 0 100px;
+    color: rgba(255,255,255,0.5);
+    line-height: 25px;
+    font-size: 14px;
+}
+.teacher{
+    width: 100%;
+    padding: 50px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.teacher>li{
+    width: 20%;
+    height: 310px;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px #c6c6c6 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teacher>li:last-child{
+    border-right: none;
+}
+.teacher>li>img{
+    width: 100px;
+   
+}
+.teacher>li>img:hover{
+    -webkit-animation: rubberBand 1s forwards;
+}
+.teacher>li>h4{
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    line-height: 30px;
+}
+.teacher>li>p{
+    width: 160px;
+}
+.teacher>li>p:nth-child(3){
+    text-align: center;
+    line-height: 25px;
+    color: black;
+}
+.box>img.jiaocai{
+    margin: 45px 0 80px;
+}
+.terrace{
+    color: #FAFAFA;
+    width: 100%;
+    height: 585px;
+    background: url("../images/pingtai.png") no-repeat;
+    background-size: cover;
+}
+.terrace .class>p{
+    color: #FAFAFA;
+}
+.terrace .class>div{
+    background: #FAFAFA;
+}
+.terrace .titel-txt{
+    color: #FAFAFA;
+}
+.terrace-list{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 75px;
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+.box .terrace-list>li{
+    height: 300px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    width: 220px;
+    background: #2BAFA4;
+}
+.box .terrace-list>li>h3{
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: normal;
+}
+.box .terrace-list>li>p{
+    line-height: 25px;
+    text-align: justify;
+}
+.foot{
+    width: 100%;
+    height: 300px;
+    background: url("../images/100wan.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot>p{
+    width: 720px;
+    height: 95px;
+    background: #2BAFA4;
+    font-size: 55px;
+    color: #FAFAFA;
+    text-align: center;
+    line-height: 95px;
+}
+.orange{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 205px;
+    left: 755px;
+}
+.red{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 328px;
+    left: 878px;
+}
+.purple{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 452px;
+    left: 755px;
+}
+.blue{
+    width: 240px;
+    height: 120px;
+    position: absolute;
+    top: 205px;
+    left: 388px;
+}
+.qing{
+    width: 240px;
+    height: 120px;
+    position: absolute;
+    top: 328px;
+    left: 140px;
+}
+.green{
+    width: 240px;
+    height: 120px;
+    position: absolute;
+    top: 452px;
+    left:388px;
+}
+.squ1{
+    text-align: center;
+    line-height: 120px;
+    color: #FAFAFA;
+    font-size: 18px;
+}
+@keyframes show {
+    0%{transform: scale(0)}
+    100%{transform: scale(1)}
+}
+@keyframes top {
+    0%{
+        transform: translateY(-10px) translateX(-10px) scale(0);
+    }
+    100%{
+        transform: translateY(0px) translateX(0) scale(1);
+    }
+}
+@keyframes down {
+    0%{
+        transform: translateY(50px) translateX(-10px) scale(0);
+    }
+    100%{
+        transform: translateY(0px) translateX(0) scale(1);
+    }
+}
+.squ1:hover span{
+    -webkit-animation: show 1s forwards;
+}
+.squ1>span{
+    display: block;
+}
+.squ2{
+    box-sizing: border-box;
+    padding: 15px;
+}
+.squ2:hover p{
+    -webkit-animation: top 1s forwards;
+}
+.squ2:hover span{
+    -webkit-animation: down 1s forwards;
+}
+.squ2>p{
+    color: #FAFAFA;
+    font-size: 20px;
+}
+.squ2>span{
+    display: block;
+    line-height: 30px;
+    color: #FAFAFA;
+    font-size: 14px;
+}
